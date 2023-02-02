@@ -1,13 +1,13 @@
 main:
   'Ctrl+Down': next_room
   'Ctrl+Up': prev_room
-  'Ctrl+k': search_rooms
+  'Ctrl+/': search_rooms
   'Ctrl+Home': scroll_up
   'Ctrl+End': scroll_down
   'Ctrl+Enter': add_newline
   'Ctrl+l': show_bare
-  'Alt+Down': next_room
-  'Alt+Up': prev_room
+  'Ctrl+n': next_room
+  'Ctrl+p': prev_room
   'Alt+k':  search_rooms
   'Alt+Home': scroll_up
   'Alt+End': scroll_down
@@ -35,8 +35,8 @@ visual:
 
 room:
   'Escape': clear
-  'Ctrl+p': scroll_up
-  'Ctrl+n': scroll_down
+  'Ctrl+k': scroll_up
+  'Ctrl+j': scroll_down
   'PageUp': scroll_up
   'PageDown': scroll_down
   'Enter': send
